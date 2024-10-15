@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="#">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+</head>
+
+<body>
+    <h2>This button will generate a zip file containing the names of each of the 16 players in the bracket.</h2>
+    <button id="generateZip">Generate ZIP with 16 Files</button>
+    <br>
+    <br>
+    <br>
+    <h2>Here, you can edit the player display fields and save it as an image.</h2>
+    <div id='capture' class="scoreboard">
+        <div class="top-bar">
+            <input type="text" id="seedInput" value="SEED: 3" class="top-input">
+            <input type="text" id="countryInput" value="USA" class="top-input">
+            <input type="text" id="pbInput" value="PB: 14.8M (2)" class="top-input">
+            <input type="text" id="starsInput" value="8" class="top-input">
+        </div>
+        <div class="main-display">
+            <input type="text" id="nameInput" value="dog" class="main-input">
+        </div>
+    </div>
+    <button id="saveAsPNG">Save as PNG</button>
+    <h3>(Everything here is buggy and proof-of-concept...)</h3>
+    <footer>
+    </footer>
+    <script src="main.js"></script>
+</body>
+
+</html>

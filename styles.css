@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0 auto;
+    background-color: #1f2029;
+    color:white
+}
+
+.scoreboard {
+    width: 450px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+}
+
+.top-bar {
+    border: 6px solid white;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding: 2px 10px;
+    font-size: 12px;
+}
+
+.main-display {
+    border: 6px solid white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #d70000;
+    /* Red background */
+    padding: 10px;
+}
+
+.name {
+    font-size: 40px;
+    color: white;
+}
+
+.score {
+    font-size: 60px;
+    color: white;
+}
+
+.seed,
+.country,
+.pb,
+.stars {
+    margin-right: 10px;
+}
+
+.stars {
+    font-size: 16px;
+    color: white;
+}
+
+/* Input field styling */
+.top-input,
+.main-input {
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 12px;
+    text-align: center;
+    width: 80px;
+}
+
+.main-input {
+    font-size: 40px;
+    text-align: left;
+    color: white;
+    background-color: #d70000;
+    border: none;
+    width: auto;
+}
+
+.score-input {
+    font-size: 60px;
+    text-align: right;
+    width: 80px;
+    color: white;
+    background-color: #d70000;
+    border: none;
+}
